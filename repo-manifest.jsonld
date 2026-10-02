@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/radiography/commit/48c0b66369482e3830262a8720518291f1a60790",
       "git:hexsha": "48c0b66369482e3830262a8720518291f1a60790",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     },
     {
