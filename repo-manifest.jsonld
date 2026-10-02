@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/radiography/commit/48c0b66369482e3830262a8720518291f1a60790",
       "git:hexsha": "48c0b66369482e3830262a8720518291f1a60790",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-02T10:22:16.346875+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/radiography/commit/49666d54d7318646227f321ea234689578a9da37",
