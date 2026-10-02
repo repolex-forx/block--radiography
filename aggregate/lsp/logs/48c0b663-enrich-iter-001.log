@@ -1,0 +1,18 @@
+[2026-10-02T10:19:32Z] === ENRICH ITERATION 1 START | repo=block/radiography sha=48c0b663 ===
+[2026-10-02T10:19:32Z] [iter=1] PHASE START: enrich repo=block/radiography sha=48c0b663 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/48c0b663-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/48c0b66369482e3830262a8720518291f1a60790.nq.gz
+[2026-10-02T10:19:32Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-02T10:19:33Z] [iter=1] AST store loaded triples=179157 load_secs=1 mem_mb=359 MB
+[2026-10-02T10:19:33Z] [iter=1] Step 2: Finding LSP targets mem_mb=359 MB
+[2026-10-02T10:19:34Z] [iter=1] LSP targets found call_sites=1831 imports=433 extends=0 implements=0 secs=0
+[2026-10-02T10:19:34Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=359 MB
+[2026-10-02T10:19:35Z] [iter=1] Position index built positions=10596 nodes_with_types=13439 secs=1 mem_mb=359 MB
+[2026-10-02T10:19:35Z] [iter=1] Step 3: Starting LSP resolution mem_mb=359 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T10:19:35Z] [iter=1] Resolving target type target_type=call_site count=1831
+[2026-10-02T10:20:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=8 resolved=17 errors=244 current=radiography/src/main/java/radiography/ViewStateRenderers.kt
+[2026-10-02T10:20:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=39 resolved=62 errors=547 current=radiography/src/test/java/radiography/JavaInteropTest.java
+[2026-10-02T10:20:49Z] [iter=1] Target type resolved target_type=call_site resolved=62 errors=554 secs=74 mem_mb=359 MB
+[2026-10-02T10:20:49Z] [iter=1] Resolving target type target_type=import_statement count=433
+[2026-10-02T10:21:08Z] [iter=1] Target type resolved target_type=import_statement resolved=0 errors=0 secs=19 mem_mb=359 MB
+[2026-10-02T10:21:27Z] [iter=1] Step 5: Writing final enrichment file triples=9046
+[2026-10-02T10:21:27Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/48c0b66369482e3830262a8720518291f1a60790.nq.gz size_kb=153
+[2026-10-02T10:21:27Z] [iter=1] PHASE END: enrich elapsed_s=115 elapsed_min=1.9 total_triples=9046
