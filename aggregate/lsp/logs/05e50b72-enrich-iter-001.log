@@ -1,0 +1,18 @@
+[2026-11-21T22:57:48Z] === ENRICH ITERATION 1 START | repo=block/radiography sha=05e50b72 ===
+[2026-11-21T22:57:48Z] [iter=1] PHASE START: enrich repo=block/radiography sha=05e50b72 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/05e50b72-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/05e50b72874c34ee99a5eddc756076da406d2755.nq.gz
+[2026-11-21T22:57:48Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-21T22:57:50Z] [iter=1] AST store loaded triples=179157 load_secs=2 mem_mb=354 MB
+[2026-11-21T22:57:50Z] [iter=1] Step 2: Finding LSP targets mem_mb=354 MB
+[2026-11-21T22:57:50Z] [iter=1] LSP targets found call_sites=1831 imports=433 extends=0 implements=0 secs=0
+[2026-11-21T22:57:50Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=354 MB
+[2026-11-21T22:57:51Z] [iter=1] Position index built positions=10596 nodes_with_types=13439 secs=1 mem_mb=354 MB
+[2026-11-21T22:57:51Z] [iter=1] Step 3: Starting LSP resolution mem_mb=354 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T22:57:51Z] [iter=1] Resolving target type target_type=call_site count=1831
+[2026-11-21T22:58:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=12 resolved=375 errors=0 current=radiography/build.gradle.kts
+[2026-11-21T22:58:42Z] [iter=1] Target type resolved target_type=call_site resolved=617 errors=0 secs=51 mem_mb=354 MB
+[2026-11-21T22:58:42Z] [iter=1] Resolving target type target_type=import_statement count=433
+[2026-11-21T22:58:48Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=1.0 files_done=5 resolved=0 errors=0 current=radiography/build.gradle.kts
+[2026-11-21T22:58:59Z] [iter=1] Target type resolved target_type=import_statement resolved=0 errors=0 secs=17 mem_mb=354 MB
+[2026-11-21T22:59:38Z] [iter=1] Step 5: Writing final enrichment file triples=11627
+[2026-11-21T22:59:38Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/05e50b72874c34ee99a5eddc756076da406d2755.nq.gz size_kb=201
+[2026-11-21T22:59:38Z] [iter=1] PHASE END: enrich elapsed_s=110 elapsed_min=1.8 total_triples=11627
