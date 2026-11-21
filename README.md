@@ -36,11 +36,16 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
+│   │   ├── 05e50b72874c34ee99a5eddc756076da406d2755
+│   │   │   └── chunk-001.nq.gz
 │   │   └── 48c0b66369482e3830262a8720518291f1a60790
 │   │       └── chunk-001.nq.gz
 │   ├── lsp
+│   │   ├── 05e50b72874c34ee99a5eddc756076da406d2755.nq.gz
 │   │   └── 48c0b66369482e3830262a8720518291f1a60790.nq.gz
 │   └── repolex
+│       ├── 05e50b72874c34ee99a5eddc756076da406d2755
+│       │   └── chunk-001.nq.gz
 │       └── 48c0b66369482e3830262a8720518291f1a60790
 │           └── chunk-001.nq.gz
 ├── blob
@@ -110,6 +115,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── b1a3013b7b41775699eeb22f92970f075a784ef3.nq.gz
 │   ├── b1b16da17fc19c69fa9c247c7b87165b8cee058e.nq.gz
 │   ├── b8e52afa349ebbd1b57d34f31c7abb2db5aac6a3.nq.gz
+│   ├── b9228d1002db6ef82b0f38063bcc926180c2db9b.nq.gz
 │   ├── baa4414253880761f61e90161389abd565720679.nq.gz
 │   ├── bcf4ffc8ab071f77c4037f10d8cd3192965a1e89.nq.gz
 │   ├── c12ef688719fa037ab563f96099bad35da33ff24.nq.gz
@@ -143,6 +149,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 ├── commit
 │   └── commit.nq.gz
 ├── filetree
+│   ├── 05e50b72874c34ee99a5eddc756076da406d2755.nq.gz
 │   └── 48c0b66369482e3830262a8720518291f1a60790.nq.gz
 ├── issue
 │   └── issue.nq.gz
@@ -151,7 +158,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-14 directories, 103 files
+16 directories, 108 files
 ```
 
 | Directory | What it contains |
@@ -172,4 +179,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [block/radiography](https://github.com/block/radiography)
 
 ---
-*Parsed on 2026-10-02 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-21 by [repolex](https://repolex.ai)*
